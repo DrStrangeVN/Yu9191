@@ -1,10 +1,11 @@
 /*************************************
-项目名称：题库260个软件合集
+项目名称：题库284个软件合集
 下载地址：https://t.cn/A6W2GEer 同作者全部软件
 下载地址：https://t.cn/A6W2VKyO 同作者全部软件
 下载地址: https://t.cn/A6W2IIWG 同作者全部软件
 下载地址: https://t.cn/A6W2auz1 同作者全部软件
 下载地址: https://t.cn/A6WLb5H7 同作者全部软件（题库最新）
+下载地址：https://t.cn/A6WL6A7h 同作者全部软件（题库较新）
 脚本作者：ios151
 免责声明：请勿传播 仅供学习测试
 特别说明：部分域名只有QuanX才能匹配到,规则转换不一定有效
@@ -22,8 +23,10 @@ https://app.bftk.com.cn//common/guestLogin.json url script-response-body https:/
 https://app.bftk.com.cn/common/guestLogin.json url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Tikuheji19.js
 https://base.cmoe.top/common/passwordLogin.json url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Tikuheji19.js
 https://base.cmoe.top//common/guestLogin.json url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Tikuheji19.js
+#24个软件
+https://yyapi.yayingtk.com/front/customer/findById.json url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Tikuheji19.js
 [mitm]
-hostname = iosapi.yueshuian.com, question.tiku.cqxcj.top, question.api.anjiazui.com, base.cmoe.top, app.bftk.com.cn
+hostname = iosapi.yueshuian.com, question.tiku.cqxcj.top, question.api.anjiazui.com, base.cmoe.top, app.bftk.com.cn, yyapi.yayingtk.com
 
 
 */
