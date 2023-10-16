@@ -7,7 +7,7 @@
 下载地址: https://t.cn/A6WLb5H7 同作者全部软件（题库最新）
 脚本作者：ios151
 免责声明：请勿传播 仅供学习测试
-
+特别说明：部分域名只有QuanX才能匹配到,规则转换不一定有效
 [rewrite_local]
 #19个软件
 ^https:\/\/iosapi\.yueshuian\.com(\/){1,2}front\/customer\/findById\.json\? url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Tikuheji19.js
