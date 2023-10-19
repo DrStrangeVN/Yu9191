@@ -19,7 +19,6 @@ hostname = app.iyzbz.com
 
 var baby = JSON.parse($response.body);
 baby.data.memberLevel = 1;
-baby.data.inviteCodeSelf = "1";
 baby.data.userName = "牛马算命";
-baby.data.expireTimel = "5201-03-14T13:14:41.000+08:00";
+baby.data.expireTime = "5201-03-14T13:14:41.000+08:00";
 $done({body : JSON.stringify(baby)});
