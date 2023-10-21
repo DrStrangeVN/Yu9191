@@ -1,3 +1,6 @@
+<div align="center"> <img src="https://profile-counter.glitch.me/Yu9191/count.svg" /> </div>
+
+
 # 合集统计
 
 ## iTunes 合集
