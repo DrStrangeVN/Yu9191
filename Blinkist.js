@@ -10,7 +10,7 @@ Blinkist 8.20.0
 https://api.blinkist.com/v4/me/access url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Blinkist.js
 
 [mitm] 
-hostname = api.blinkist.comn
+hostname = api.blinkist.com
 
 */
 
