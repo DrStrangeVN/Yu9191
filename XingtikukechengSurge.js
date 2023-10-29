@@ -1,7 +1,7 @@
 const $ = new Env("GOGOGOGO");
 const url = $request.url;
 const headers = $request.headers;
-const urlPattern = /^https:\/\/cm15-c110-3\.play\.bokecc\.com\/flvs\/.*\.m3u8\?.*$/;
+const urlPattern = /^https:\/\/cm15-c110-2\.play\.bokecc\.com\/flvs\/.*\.m3u8\?.*$/;
 const userAgent = headers["user-agent"];
 const userAgentPattern = /AppleCoreMedia/i; 
 
