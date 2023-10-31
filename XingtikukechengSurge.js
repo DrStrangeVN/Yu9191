@@ -8,7 +8,7 @@ try {
   const userAgentPattern = /AppleCoreMedia/i;
 
   if (urlPattern.test(url) && userAgentPattern.test(userAgent)) {
-    $.msg("课程捕获成功", "点击此通知在线观看", "通知详细", url);
+    $.msg("课程捕获成功", "点击此通知在线观看", "lovebabyforever", url);
   } else {
     console.log("未匹配成功");
   }
