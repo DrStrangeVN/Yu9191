@@ -16,6 +16,7 @@ hostname = api.revenuecat.com
 ************************************/
 
 
+
 const anni = {};
 const anni1 = JSON.parse(typeof $response != "undefined" && $response.body || null);
 
@@ -36,8 +37,8 @@ if (typeof $response == "undefined") {
   };
 
   anni1.subscriber.subscriptions["com.metaorder.lifelist.premium"] = data;
-  anni1.subscriber.entitlements["premium"] = JSON.parse(JSON.stringify(data));
-  anni1.subscriber.entitlements["premium"].product_identifier = "com.metaorder.lifelist.premium";
+  anni1.subscriber.entitlements["pro"] = JSON.parse(JSON.stringify(data));
+  anni1.subscriber.entitlements["pro"].product_identifier = "com.metaorder.lifelist.premium";
 
   anni.body = JSON.stringify(anni1);
 }
