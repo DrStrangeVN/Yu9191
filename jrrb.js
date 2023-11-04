@@ -10,7 +10,7 @@ https://api2.tophub.app/account/sync url script-response-body https://raw.github
 
 [mitm] 
 
-hostname = api2.tophub.app/account
+hostname = api2.tophub.app
 
 */
 var Q = JSON.parse($response.body);
