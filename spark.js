@@ -1,7 +1,8 @@
 /* 
 
-Name：Spark 
+Name：Spark 同时解锁Airmail
 download：https://t.cn/A60o4pn5
+download：https://suo.yt/5kIFilB
 To：@ios151
 disclaimers：Study, not spread
 
