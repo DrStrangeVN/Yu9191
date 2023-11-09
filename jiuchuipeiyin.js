@@ -3,7 +3,7 @@
 九锤配音
 
 [rewrite_local]
-https://api.next.bspapp.com/client script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/jiuchuipeiyin.js
+https://api.next.bspapp.com/client url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/jiuchuipeiyin.js
 [mitm] 
 hostname = api.next.bspapp.com
 
