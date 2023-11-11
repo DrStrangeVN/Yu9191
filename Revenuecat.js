@@ -14,6 +14,7 @@
 下载地址：Mypianist 2.08
 下载地址：TouchRetouch 5.1.12
 下载地址：Appspree https://t.cn/A6otfeAc 3.1
+下载地址：Persona 1.824
 
 使用声明：⚠️仅供参考，🈲️转载与售卖！
 
@@ -65,6 +66,7 @@ if (typeof $response == "undefined") {
     'MyPianist':{ name: 'pro', id: 'com.collaparte.mypianist.pro.gift.twelve'},
     'TouchRetouchBasic':{ name: 'premium', id: 'tr5_yearlysubsc_30_and_20_dlrs'},//年底订阅
     'Free':{ name: 'pro', id: 'appspree_pro_lifetime'},
+    'Version':{ name: 'pro', id: 'httpbot_1499_1y_1w0'},
    
   };
   const data = {
