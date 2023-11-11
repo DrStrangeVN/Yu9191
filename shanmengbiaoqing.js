@@ -4,7 +4,7 @@
 
 [rewrite_local]
 
-https://hi-api.weshineapp.com/v3.0/account/profile? url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/itunes/shanmengbiaoqing.js
+https://hi-api.weshineapp.com/v3.0/account/profile? url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/shanmengbiaoqing.js
 
 
 [mitm]
