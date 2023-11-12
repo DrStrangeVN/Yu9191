@@ -1,6 +1,6 @@
 /*
 魔鬼相机 3.996
-
+Pcsart Color 2.92
 [rewrite_local]
 
 
