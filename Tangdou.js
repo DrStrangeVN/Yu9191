@@ -5,20 +5,25 @@
 
 [rewrite_local]
 
-#会员视频
-^https:\/\/aqiniuud\.tangdou\.com\/.*\.mp4 url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/Tangdou.js
+#通用舞蹈视频
+^https:\/\/.*\.tangdou\.com\/(?:\w*\/)?\d+\/\d+_\w+\.mp4\?sign=[\w-]+&t=\w+$ url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/Tangdou.js
+#舞蹈分类 16步舞蹈
+#^https:\/\/aqiniu\.tangdou\.com\/.*\.mp4 url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/Tangdou.js
+#舞蹈分类 32步舞蹈
+#^https:\/\/acc\.tangdou\.com\/.*\.mp4 url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/Tangdou.js
 
 [mitm] 
-hostname = aqiniuud.tangdou.com
+hostname = *.tangdou.com
 */
 
 const $ = new Env('tangdou');
 
 try {
   const headers = $request.headers;
-  const userAgent = headers["User-Agent"];
+  const userAgent = headers["User-Agent"];//其他工具注意U-A大小写
   const url = $request.url; 
-  const urlPattern = /^https:\/\/aqiniuud\.tangdou\.com\/\d+\/\d+_\w+\.mp4\?sign=[\w-]+&t=\w+$/;
+  const urlPattern = /^https:\/\/.*\.tangdou\.com\/(?:\w*\/)?\d+\/\d+_\w+\.mp4\?sign=[\w-]+&t=\w+$/
+;
   const userAgentPattern = /ijkplayer/i;
 
   if (userAgentPattern.test(userAgent) && urlPattern.test(url)) {
