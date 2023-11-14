@@ -1,6 +1,7 @@
 /*
-小白学习打印 
-小白智慧打印
+小白学习打印 2.15.0
+小白智慧打印 2.41.9
+小白试卷宝 1.28
 
 会员重写具有时效性,如果失效请用之前的"捕获"版本
 https://raw.githubusercontent.com/Yu9191/Script/main/shijuan.js
