@@ -1,5 +1,7 @@
 /*
 ‎Duet Display 2.18
+DuetAir 1.2.12
+
 需登录
 
 [rewrite_local]
