@@ -18,5 +18,5 @@ Q.result.money = "999.99";//自慰
 Q.result.hasPayItem = 1;
 Q.result.vipLevel = 1;
 Q.result.isCard = 1;
-Q.result.isAutoPay
+Q.result.isAutoPay = 1;
 $done({body : JSON.stringify(Q)});
