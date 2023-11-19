@@ -69,6 +69,7 @@ if (typeof $response == "undefined") {
     'Free':{ name: 'pro', id: 'appspree_pro_lifetime'},
     'Version':{ name: 'pro', id: 'httpbot_1499_1y_1w0'},
     'wordswag':{ name: 'pro', id: 'Pro_Launch_Monthly'},
+    'BlackBox':{ name: 'plus', id: 'app.filmnoir.appstore.purchases.lifetime'},
    
   };
   const data = {
