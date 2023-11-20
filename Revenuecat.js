@@ -70,7 +70,7 @@ if (typeof $response == "undefined") {
     'Version':{ name: 'pro', id: 'httpbot_1499_1y_1w0'},
     'wordswag':{ name: 'pro', id: 'Pro_Launch_Monthly'},
     'BlackBox':{ name: 'plus', id: 'app.filmnoir.appstore.purchases.lifetime'},
-   
+    'LongmaoApp':{ name: 'pro', id: 'douyina_forever_01'},
   };
   const data = {
     "expires_date": "2099-12-31T12:00:00Z",
