@@ -7,7 +7,7 @@ SOOGIF工具永久会员
 https://www.soogif.com/search-smallapp/small-soogif/vip url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/soogif.js
 
 [mitm] 
-hostname = buy.itunes.apple.com
+hostname = www.soogif.com
 
 */
 
