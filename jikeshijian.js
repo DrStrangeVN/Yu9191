@@ -1,7 +1,7 @@
 /*
 
 #小程序://极客时间/GXdRaLCdInCX2Lg
-解锁全课程播放权限
+解锁全课程播放以及文章
 
 [rewrite_local]
 
