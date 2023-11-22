@@ -50,7 +50,6 @@
 
       // 将 ScriptHub 按钮放在左侧
       if (text === "打开 ScriptHub") {
-        ßß;
         button.style.left = "20px";
         button.style.bottom = "50px"; // 上移一些以适应页面
       }
