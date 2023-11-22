@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         GitHub Raw Link Opener
 // @namespace    ios151
-// @version      2.5
+// @version      2.6
 // @description  Enhance the GitHub raw link button.
 // @author       baby
 // @match        https://github.com/*
@@ -69,8 +69,7 @@
 
     function openScriptHubLink() {
         const rawUrl = window.location.href.replace('/blob', '').replace('github.com', 'raw.githubusercontent.com');
-        const scriptHubUrl = `http://script.hub/convert/_start_/${rawUrl}.txt?type=plain-text&target=plain-text`;
-        // 在新标签页中打开 ScriptHub 链接
+        const scriptHubUrl = `http://script.hub/convert/_start_/${rawUrl}/_end_/plain.txt?type=plain-text&target=plain-text`;
         window.open(scriptHubUrl, '_blank');
     }
 })();
