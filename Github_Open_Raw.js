@@ -1,49 +1,76 @@
 // ==UserScript==
 // @name         GitHub Raw Link Opener
 // @namespace    ios151
-// @version      1.6
-// @description  Enhance the GitHub raw link button.
+// @version      2.2
+// @description  增强 GitHub 的原始链接按钮,并添加ScriptHub
 // @author       baby
 // @match        https://github.com/*
-// @grant        none
 // ==/UserScript==
 
 (function() {
     'use strict';
-
-    // Check if the current page is a GitHub blob page
+	
+    setTimeout(init, 500);
+	
     const isBlobPage = window.location.pathname.includes('/blob/');
-    
-    // Wait for the DOM to be fully loaded
-    if (document.readyState === 'complete' || (document.readyState !== 'loading' && !isBlobPage)) {
+
+  if (document.readyState === 'complete' || (document.readyState !== 'loading' && isBlobPage)) {
         init();
     } else {
-        document.addEventListener('DOMContentLoaded', init);
+        document.addEventListener('DOMContentLoaded', () => {
+        });
     }
 
     function init() {
         if (isBlobPage) {
-            
-            const rawButton = document.createElement('button');
-            rawButton.innerHTML = '<i class="fas fa-external-link-alt"></i> 打开 Raw';
-            rawButton.style.position = 'fixed';
-            rawButton.style.right = '20px';
-            rawButton.style.bottom = '20px';
-            rawButton.style.backgroundColor = '#333';
-            rawButton.style.color = '#fff';
-            rawButton.style.border = 'none';
-            rawButton.style.padding = '8px 16px';
-            rawButton.style.borderRadius = '5px';
-            rawButton.style.cursor = 'pointer';
-            rawButton.addEventListener('click', openRawLink);
+            //按钮（放在右侧）可以自行更改
+            const rawButton = createButton('打开 Raw', openRawLink);
             document.body.appendChild(rawButton);
+            const scriptHubButton = createButton('打开 ScriptHub', openScriptHubLink);
+            document.body.appendChild(scriptHubButton);
         }
     }
 
-    function openRawLink() {
-     
-        const rawUrl = window.location.href.replace('/blob', '').replace('github.com', 'raw.githubusercontent.com');
+    function createButton(text, clickHandler) {
+        const button = document.createElement('button');
+        button.innerHTML = text;
+        button.style.position = 'fixed';
+        button.style.backgroundColor = '#333';
+        button.style.color = '#fff';
+        button.style.border = 'none';
+        button.style.padding = '8px 16px';
+        button.style.borderRadius = '5px';
+        button.style.cursor = 'pointer';
 
+        // 将 Raw 按钮放在右侧
+        if (text === '打开 Raw') {
+            button.style.right = '20px';
+            button.style.bottom = '50px'; // 上移一些以适应页面
+        }
+
+        // 将 ScriptHub 按钮放在左侧
+        if (text === '打开 ScriptHub') {
+            button.style.left = '20px';
+            button.style.bottom = '50px'; // 上移一些以适应页面
+        }
+
+        button.addEventListener('click', clickHandler);
+        return button;
+    }
+
+    function openRawLink() {
+        // 提取
+        const rawUrl = window.location.href.replace('/blob', '').replace('github.com', 'raw.githubusercontent.com');
         window.open(rawUrl, '_blank');
     }
+
+    function openScriptHubLink() {
+        // 提取
+        const rawUrl = window.location.href.replace('/blob', '').replace('github.com', 'raw.githubusercontent.com');
+        // 生成 ScriptHub 链接
+        const scriptHubUrl = `http://script.hub/convert/_start_/${rawUrl}.txt?type=plain-text&target=plain-text`;
+		
+        window.open(scriptHubUrl, '_blank');
+    }
 })();
+
