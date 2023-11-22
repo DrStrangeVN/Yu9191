@@ -27,9 +27,4 @@ let obj = JSON.parse($response.body);
         body: JSON.stringify(obj)
     });
 
-if ($request.url.indexOf("api/userinfo") !== -1) {
-    if (!$persistentStore.read("notified")) {
-        $notification.post("话本小说", "禁止贩卖", "帅哥你好,我是叼毛安妮");
-        $persistentStore.write("notified", true);
-    }
-}
+
