@@ -7,11 +7,12 @@ http://cc.lzjoy.com url script-response-body https://raw.githubusercontent.com/Y
 
 */
 
-if ($request.url.includes("http://cc.lzjoy.com/?urlparam=common/user/GetVip")) {
-    let obj = JSON.parse($response.body);
+let obj = JSON.parse($response.body);
+
+if ($request.url.includes("http://cc.lzjoy.com/?urlparam=common/user/GetVip") || $request.url.includes("http://cc.lzjoy.com/?urlparam=pad/opern/detail")) {
     obj.list.is_buy = "1";
     obj.list.is_vip = "1";
-    $done({ body: JSON.stringify(obj) });
-} else {
-    $done({ body: $response.body });
+    obj.list.has_buy = "1";
 }
+
+$done({ body: JSON.stringify(obj) });
