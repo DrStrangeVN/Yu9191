@@ -13,6 +13,10 @@ if ($request.url.includes("http://cc.lzjoy.com/?urlparam=common/user/GetVip") ||
     obj.list.is_buy = "1";
     obj.list.is_vip = "1";
     obj.list.has_buy = "1";
+} else if ($request.url.includes("http://cc.lzjoy.com/?urlparam=pad/course/getCourseDetailForSingleOpern")) {
+    obj.list.is_buy = "1";
+    obj.list.is_vip = "1";
+    obj.list.info.has_pay = "1";
 }
 
 $done({ body: JSON.stringify(obj) });
