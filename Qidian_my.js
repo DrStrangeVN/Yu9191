@@ -12,8 +12,6 @@
 [mitm] 
 hostname = magev6.if.qidian.com
 */
-^https:\/\/magev6\.if\.qidian\.com\/argus\/api\/(v1\/assembly\/toolbar|v3\/user\/getaccountpage)
-
 
 
 if ($request.url.includes("argus/api/v3/user/getaccountpage")) {
