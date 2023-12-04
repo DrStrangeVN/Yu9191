@@ -3,7 +3,7 @@
 芒果TV 7.6.2
 [rewrite_local]
 ^http[s]?:\/\/mobile\.api\.mgtv\.com\/v[0-9]\/(playlist|video\/album|video\/relative|video\/list).*$ url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/mgtv1.js
-https://mobile-stream.api.mgtv.com/v1/video/source? url script-request-header mg会员.js
+https://mobile-stream.api.mgtv.com/v1/video/source? url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/MGTV.js
 https://nuc.api.mgtv.com/GetUserInfo url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/mgtv.js
 https://me.bz.mgtv.com/v3/module/list?_support url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/mgtv.js
 https://mobile-stream.api.mgtv.com/v1/video/source url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/mgtv.js
