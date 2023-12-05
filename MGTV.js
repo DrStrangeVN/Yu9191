@@ -1,7 +1,9 @@
 /* 
 芒果TV 2023.12.5
 脚本仅供学习和个人使用，不得用于商业目的或其他非法用途
-使用脚本可能存在风险，包括但不限于造成账号异常、数据丢失等问题。使用脚本时，请谨慎操作，自行承担风险
+可以直接使用Walala的净化广告以及包含会员数据的脚本
+https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/cnftp.snippet
+感谢@RuCu6
 [rewrite_local]
 ^http[s]?:\/\/mobile\.api\.mgtv\.com\/v[0-9]\/(playlist|video\/album|video\/relative|video\/list).*$ url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/mgtv1.js
 https://mobile-stream.api.mgtv.com/v1/video/source? url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/MGTV.js
