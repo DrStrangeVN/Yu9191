@@ -1,5 +1,5 @@
 /*************************************
-项目名称：题库287个软件合集
+项目名称：题库316个软件合集
 下载地址：https://t.cn/A6W2GEer 同作者全部软件
 下载地址：https://t.cn/A6W2VKyO 同作者全部软件
 下载地址: https://t.cn/A6W2IIWG 同作者全部软件
@@ -13,10 +13,8 @@
 [rewrite_local]
 #19个软件
 ^https:\/\/iosapi\.yueshuian\.com(\/){1,2}front\/customer\/findById\.json\? url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Tikuheji19.js
-#66个软件
-https://question.tiku.cqxcj.top/front/customer/findById.json? url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Tikuheji19.js
-#96个软件
-https://question.api.anjiazui.com/front/customer/findById.json? url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Tikuheji19.js
+#39个软件 66个软件 96个软件
+^https:\/\/question.*findById\.json\? url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Tikuheji19.js
 #59个软件
 https://app.bftk.com.cn/front/customer/findById.json url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Tikuheji19.js
 #20个软件
@@ -27,7 +25,7 @@ https://base.cmoe.top//common/guestLogin.json url script-response-body https://r
 #24个软件
 https://yyapi.yayingtk.com/front/customer/findById.json url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Tikuheji19.js
 [mitm]
-hostname = iosapi.yueshuian.com, question.tiku.cqxcj.top, question.api.anjiazui.com, base.cmoe.top, app.bftk.com.cn, yyapi.yayingtk.com
+hostname = iosapi.yueshuian.com, question.tiku.cqxcj.top, question.api.anjiazui.com, base.cmoe.top, app.bftk.com.cn, yyapi.yayingtk.com, question.civil.shaoeyy.com
 
 
 */
