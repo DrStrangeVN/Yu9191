@@ -7,4 +7,4 @@ fanyingq = type=http-response,pattern=https://gzfanyin.com/api/ums/getMember,req
 
 [MITM]
 
-hostname = %APPEND% translator.felo.me
+hostname = %APPEND% gzfanyin.com
