@@ -24,11 +24,11 @@ if (obj?.data) {
         ...decryptData,
         isVip: 1,
         member_type: 1,
-        member_title: "超级加倍专属版",
-        expire_on: "牛逼克拉斯",
+        member_title: "love",
+        expire_on: "baby",
         is_primary: 1,
         auth_quantity: 99,
-        auth_mail: 'ChaoJi2@jiabei.com',
+        auth_mail: 'lovebaby@forever',
         function_list: [1, 2, 3, 4, 5]
     }), key)
     $.done({ body: JSON.stringify(obj) })
