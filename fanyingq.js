@@ -6,7 +6,7 @@
 https://gzfanyin.com/api/ums/getMember url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/fanyingq.js
 
 [mitm] 
-hostname = translator.felo.me
+hostname = gzfanyin.com
 */
 
 
