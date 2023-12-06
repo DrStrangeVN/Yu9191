@@ -13,10 +13,10 @@ hostname = gzfanyin.com
 let obj = JSON.parse($response.body);
    
     obj.data.vipEndDate = "2999-12-12 00:00:00";  
-    //obj.data.vnickName = "叼毛安妮2";  
+    obj.data.vnickName = "叼毛安妮2";  
     obj.data.ifFollow = true; 
     obj.data.isPartner = true; 
-	obj.data.vipGrade
+  obj.data.vipGrade = 1; 
     $done({
         body: JSON.stringify(obj)
     });
