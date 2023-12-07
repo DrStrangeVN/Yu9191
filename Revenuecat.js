@@ -71,7 +71,7 @@ if (typeof $response == "undefined") {
     'wordswag':{ name: 'pro', id: 'Pro_Launch_Monthly'},
     'BlackBox':{ name: 'plus', id: 'app.filmnoir.appstore.purchases.lifetime'},
     'LongmaoApp':{ name: 'pro', id: 'douyina_forever_01'},
-     'AnkiPro':{ name: 'Premium', id: 'com.ankipro.app.lifetime'},
+    'AnkiPro':{ name: 'Premium', id: 'com.ankipro.app.lifetime'},
   };
   const data = {
     "expires_date": "2099-12-31T12:00:00Z",
