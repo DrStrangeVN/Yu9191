@@ -6,9 +6,12 @@
 
 [rewrite_local]
 
-https://api\.vistopia\.com\.cn/api/v\d/(user/profile|reader/section-detail) url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/kanlixiang.js
+#https://api\.vistopia\.com\.cn/api/v\d/(user/profile|reader/section-detail) url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/kanlixiang.js
 
 https://api\.vistopia\.com\.cn/api/v\d/(user/profile|reader/section-detail) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/kanlixiangbd.js
+
+^https:\/\/api\.vistopia\.com\.cn\/api\/v\d\/(user\/profile|reader\/section-detail|content\/article_list) url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/kanlixiang.js
+
 [mitm] 
 hostname = api.vistopia.com.cn
 */
