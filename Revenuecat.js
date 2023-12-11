@@ -17,6 +17,9 @@
 下载地址：Persona 1.824
 下载地址：WordSwag 4.56
 下载地址：AnkiPro 1.22.1
+下载地址：SmartAI 
+下载地址：AI Chat 
+下载地址：‎AI Type
 使用声明：⚠️仅供参考，🈲️转载与售卖！
 
 **************************************
@@ -72,6 +75,10 @@ if (typeof $response == "undefined") {
     'BlackBox':{ name: 'plus', id: 'app.filmnoir.appstore.purchases.lifetime'},
     'LongmaoApp':{ name: 'pro', id: 'douyina_forever_01'},
     'AnkiPro':{ name: 'Premium', id: 'com.ankipro.app.lifetime'},
+    'AIChat':{ name: 'AI Plus', id: 'aiplus_yearly'},
+    'SmartAIChat':{ name: 'Premium', id: 'sc_3999_1y'},
+    'AIKeyboard':{ name: 'plus_keyboard', id: 'aiplus_keyboard_yearly'},
+    
   };
   const data = {
     "expires_date": "2099-12-31T12:00:00Z",
