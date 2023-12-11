@@ -36,16 +36,15 @@ hostname = api.revenuecat.com
 
 ************************************/
 
-
-const anni = {};
-const anni1 = JSON.parse(typeof $response != "undefined" && $response.body || null);
+const Q = {};
+const Q1 = JSON.parse(typeof $response != "undefined" && $response.body || null);
 if (typeof $response == "undefined") {
   delete $request.headers["x-revenuecat-etag"];
   delete $request.headers["X-RevenueCat-ETag"];
-  anni.headers = $request.headers;
-} else if (anni1 && anni1.subscriber) {
-  anni1.subscriber.subscriptions = anni1.subscriber.subscriptions || {};
-  anni1.subscriber.entitlements = anni1.subscriber.entitlements || {};
+  Q.headers = $request.headers;
+} else if (Q1 && Q1.subscriber) {
+  Q1.subscriber.subscriptions = Q1.subscriber.subscriptions || {};
+  Q1.subscriber.entitlements = Q1.subscriber.entitlements || {};
   var headers = {};
   for (var key in $request.headers) {
   const reg = /^[a-z]+$/;
@@ -90,13 +89,13 @@ if (typeof $response == "undefined") {
   for (const i in UAMappings) {
     if (new RegExp(`^${i}`, 'i').test(UA)) {
       const { name, id } = UAMappings[i];
-      anni1.subscriber.subscriptions = {};
-      anni1.subscriber.subscriptions[id] = data;
-      anni1.subscriber.entitlements[name] = JSON.parse(JSON.stringify(data));
-      anni1.subscriber.entitlements[name].product_identifier = id;
+      Q1.subscriber.subscriptions = {};
+      Q1.subscriber.subscriptions[id] = data;
+      Q1.subscriber.entitlements[name] = JSON.parse(JSON.stringify(data));
+      Q1.subscriber.entitlements[name].product_identifier = id;
       break;
     }
   }
-  anni.body = JSON.stringify(anni1);
+  Q.body = JSON.stringify(Q1);
 }
-$done(anni);
+$done(Q);
