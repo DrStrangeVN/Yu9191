@@ -20,6 +20,8 @@
 下载地址：SmartAI 
 下载地址：AI Chat 
 下载地址：‎AI Type
+下载地址：TextMask
+
 使用声明：⚠️仅供参考，🈲️转载与售卖！
 
 **************************************
@@ -77,7 +79,7 @@ if (typeof $response == "undefined") {
     'AIChat':{ name: 'AI Plus', id: 'aiplus_yearly'},
     'SmartAIChat':{ name: 'Premium', id: 'sc_3999_1y'},
     'AIKeyboard':{ name: 'plus_keyboard', id: 'aiplus_keyboard_yearly'},
-    
+    'TextMask':{ name: 'pro', id: 'tm_lifetime'},
   };
   const data = {
     "expires_date": "2099-12-31T12:00:00Z",
