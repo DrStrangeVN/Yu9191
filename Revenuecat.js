@@ -21,7 +21,7 @@
 下载地址：AI Chat 
 下载地址：‎AI Type
 下载地址：TextMask
-
+下载地址：Music Mate
 使用声明：⚠️仅供参考，🈲️转载与售卖！
 
 **************************************
@@ -80,6 +80,7 @@ if (typeof $response == "undefined") {
     'SmartAIChat':{ name: 'Premium', id: 'sc_3999_1y'},
     'AIKeyboard':{ name: 'plus_keyboard', id: 'aiplus_keyboard_yearly'},
     'TextMask':{ name: 'pro', id: 'tm_lifetime'},
+    'MusicMate':{ name: 'premium', id: 'mm_lifetime_68_premium'},
   };
   const data = {
     "expires_date": "2099-12-31T12:00:00Z",
