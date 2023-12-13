@@ -1,6 +1,6 @@
 /*
 
-Snipd 3.0.20 
+Snipd 3.0.47
 
 [rewrite_local]
 
@@ -24,7 +24,7 @@ var objc = JSON.parse($response.body);
     },
     "management_url": "https:\/\/apps.apple.com\/account\/subscriptions",
     "subscriptions": {
-      "snipd_premium_referral_1_month_free_1y_7199_trial_1m_v1": {
+      "snipd_premium_1y_7199_trial_2w_v2": {
         "store_transaction_id": "220001767981426",
         "expires_date": "2099-11-03T16:12:17Z",
         "is_sandbox": false,
@@ -44,7 +44,7 @@ var objc = JSON.parse($response.body);
       "premium": {
         "expires_date": "2099-11-03T16:12:17Z",
         "purchase_date": "2023-10-20T16:12:17Z",
-        "product_identifier": "snipd_premium_referral_1_month_free_1y_7199_trial_1m_v1",
+        "product_identifier": "snipd_premium_1y_7199_trial_2w_v2",
         "grace_period_expires_date": null
       }
     },
@@ -56,3 +56,5 @@ var objc = JSON.parse($response.body);
 }
 
 $done({body : JSON.stringify(objc)});
+
+
