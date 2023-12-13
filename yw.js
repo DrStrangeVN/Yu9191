@@ -22,12 +22,10 @@ if (url.includes("/api/user/homeData")) {
     body = body.replace(/"userType":null/, '"userType":3');
     body = body.replace(/"photographerFlag":false/, '"photographerFlag":true');
 } else if (url.includes("/member/userMemberHomePageV2")) {
-    let obj = JSON.parse(body);
-    obj.data.memberInfos.memberLevel = 1;
-    obj.data.memberInfos.permanent = true;
-    obj.data.memberInfos.memberDisInfoDescription = "lovebabyforever";
-    obj.data.memberInfos.memberExpirationTime = 9997004143863;
-    body = JSON.stringify(obj);
+    body = body.replace(/"memberDisInfoDescription":"限时2\.6折 成为会员望得更远"/, '"memberDisInfoDescription":"lovebabyforever"');
+    body = body.replace(/"memberExpirationTime":null/, '"memberExpirationTime":9997004143863');
+    body = body.replace(/"permanent":false/, '"permanent":true');
+    body = body.replace(/"memberLevel":null/, '"memberLevel":1');
 } else if (url.includes("/taskcenter/getGrowthInfo")) {
     body = body.replace(/"growthLevelName":"\w+"/, '"growthLevelName":"baby"');
     body = body.replace(/"aggDay":\d/, '"aggDay":6');
