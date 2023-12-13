@@ -13,7 +13,7 @@ var body = $response.body;
 var url = $request.url;
 
 if (url.includes("/api/user/homeData")) {
-    body = body.replace(/"userId":\d+/, '"userId":9512');
+    body = body.replace(/"userId":\d+/, '"userId":6666');
     body = body.replace(/"likeCount":\d+/, '"likeCount":999999888');
     body = body.replace(/"peopleViewNum":\d/, '"peopleViewNum":988888888');
     body = body.replace(/"fansCount":\d/, '"fansCount":99999999');
