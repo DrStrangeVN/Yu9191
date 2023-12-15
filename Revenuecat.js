@@ -22,6 +22,7 @@
 下载地址：‎AI Type
 下载地址：TextMask
 下载地址：Music Mate
+下载地址：Rootd 2.50.0 美区 
 使用声明：⚠️仅供参考，🈲️转载与售卖！
 
 **************************************
@@ -83,6 +84,7 @@ if (typeof $response == "undefined") {
     'MusicMate':{ name: 'premium', id: 'mm_lifetime_68_premium'},
     'ImagineAI':{ name: '', id: 'artistai.yearly.1'},
     'VoiceAI':{ name: 'Special Offer', id: 'voiceannualspecial'},
+    'Rootd':{ name: 'default_pro', id: 'subscription_lifetime'},
   };
   const data = {
     "expires_date": "2099-12-31T12:00:00Z",
