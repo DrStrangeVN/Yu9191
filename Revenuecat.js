@@ -81,6 +81,8 @@ if (typeof $response == "undefined") {
     'AIKeyboard':{ name: 'plus_keyboard', id: 'aiplus_keyboard_yearly'},
     'TextMask':{ name: 'pro', id: 'tm_lifetime'},
     'MusicMate':{ name: 'premium', id: 'mm_lifetime_68_premium'},
+    'ImagineAI':{ name: '', id: 'artistai.yearly.1'},
+    'VoiceAI':{ name: 'Special Offer', id: 'voiceannualspecial'},
   };
   const data = {
     "expires_date": "2099-12-31T12:00:00Z",
