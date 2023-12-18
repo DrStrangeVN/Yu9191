@@ -16,7 +16,7 @@ function baby(obj) {
     return {
         "unit": "year",
         "autorenew_enabled": false,
-        "expires_at": "2099-09-09T11:05:44.000Z", 
+        "expires_at": "2099-09-09T11:05:44.000Z",
         "in_retry_billing": false,
         "introductory_activated": true,
         "cancelled_at": null,
@@ -35,10 +35,16 @@ function baby(obj) {
 
 var obj = JSON.parse(body);
 
-if (url.includes('/subscriptions') || url.includes('/customers')) {
-    obj.data.subscriptions = [baby(obj)];
-    body = JSON.stringify(obj);
+if (url.includes('/subscriptions')) {
+    if (obj.data.hasOwnProperty('subscriptions')) {
+        obj.data.subscriptions = [baby(obj)];
+    }
+} else if (url.includes('/customers')) {
+    if (obj.data.results.hasOwnProperty('subscriptions')) {
+        obj.data.results.subscriptions = [baby(obj)];
+    }
 }
 
+body = JSON.stringify(obj);
 $done({ body, url });
 
