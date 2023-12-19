@@ -22,6 +22,7 @@
 下载地址：‎AI Type
 下载地址：TextMask
 下载地址：Music Mate
+下载地址：Langster
 使用声明：⚠️仅供参考，🈲️转载与售卖！
 
 **************************************
@@ -83,6 +84,7 @@ if (typeof $response == "undefined") {
     'MusicMate':{ name: 'premium', id: 'mm_lifetime_68_premium'},
     'ImagineAI':{ name: '', id: 'artistai.yearly.1'},
     'VoiceAI':{ name: 'Special Offer', id: 'voiceannualspecial'},
+    'Langster':{ name: 'premium', id: 'com.langster.universal.lifetime'},
   
   };
   const data = {
