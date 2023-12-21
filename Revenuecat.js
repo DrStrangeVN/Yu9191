@@ -85,7 +85,7 @@ if (typeof $response == "undefined") {
     'ImagineAI':{ name: 'pro', id: 'artistai.yearly.1'},
     'VoiceAI':{ name: 'Special Offer', id: 'voiceannualspecial'},
     'Langster':{ name: 'Premium', id: 'com.langster.universal.lifetime'},
-  
+    'Chat%E7%BB%83%E5%8F%A3%E8%AF%AD':{ name: 'Premium', id: 'com.tech.AiSpeak.All'},
   };
   const data = {
     "expires_date": "2099-12-31T12:00:00Z",
