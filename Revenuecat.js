@@ -84,7 +84,7 @@ if (typeof $response == "undefined") {
     'MusicMate':{ name: 'premium', id: 'mm_lifetime_68_premium'},
     'ImagineAI':{ name: '', id: 'artistai.yearly.1'},
     'VoiceAI':{ name: 'Special Offer', id: 'voiceannualspecial'},
-    'Langster':{ name: 'premium', id: 'com.langster.universal.lifetime'},
+    'Langster':{ name: 'Premium', id: 'com.langster.universal.lifetime'},
   
   };
   const data = {
