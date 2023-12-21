@@ -82,7 +82,7 @@ if (typeof $response == "undefined") {
     'AIKeyboard':{ name: 'plus_keyboard', id: 'aiplus_keyboard_yearly'},
     'TextMask':{ name: 'pro', id: 'tm_lifetime'},
     'MusicMate':{ name: 'premium', id: 'mm_lifetime_68_premium'},
-    'ImagineAI':{ name: '', id: 'artistai.yearly.1'},
+    'ImagineAI':{ name: 'pro', id: 'artistai.yearly.1'},
     'VoiceAI':{ name: 'Special Offer', id: 'voiceannualspecial'},
     'Langster':{ name: 'Premium', id: 'com.langster.universal.lifetime'},
   
