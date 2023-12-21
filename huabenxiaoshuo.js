@@ -14,7 +14,7 @@ hostname = user.ihuaben.com
 let obj = JSON.parse($response.body);
     
   
-    obj.nickName = "我是叼毛安妮";  
+    //obj.nickName = "我是叼毛安妮";  
 
     obj.memberEndTime = "2099-09-09 00:29:59";  
   
