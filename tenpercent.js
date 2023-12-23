@@ -17,5 +17,5 @@ Q.user.experience_level = "Occasionally";
 Q.user.subscription_end_date = "12\/31\/2099, 05:00:59 PM UTC";
 Q.user.subscription_is_auto_renewing = true;
 Q.user.purchaser = true;
-Q.user.subscription_source = "App Store";
+Q.user.subscription_source = "Apple";
 $done({body: JSON.stringify(Q)});
