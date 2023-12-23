@@ -1,7 +1,7 @@
 <div align="center"> <img src="https://profile-counter.glitch.me/Yu9191/count.svg" /> </div>
 
 
-# 合集统计 2023.11.20不再更新合集具体看仓库itunes文件
+# 部分软件合集 其他请查看具体Js内容
 
 ## iTunes 合集
 
