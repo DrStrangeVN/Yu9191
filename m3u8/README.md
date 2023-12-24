@@ -17,9 +17,12 @@
 - 打开`重写规则`➟ 打开`91短视频（举例）`➟ 通知然后点击跳转➟ 点击`获取视频地址`➟ 跳转到浏览器或者其他工具即可观看
 
 
-> [Quantumult X](hhttps://raw.githubusercontent.com/Yu9191/Rewrite/main/m3u8/m3u8.js)
+> [QuantumultX](hhttps://raw.githubusercontent.com/Yu9191/Rewrite/main/m3u8/m3u8.js)
+
 > [suger](https://raw.githubusercontent.com/Yu9191/Rewrite/main/m3u8/m3u8.sgmodule)
+
 > [其他代理工具请用ScriptHub转换](https://github.com/Script-Hub-Org/Script-Hub)
+
 
 
 ## 自己更新域名
