@@ -1,15 +1,3 @@
-/*
-瑟瑟视频播放地址获取
-91举例
-91 短视频https://ba65.eimkeb.com
-
-[rewrite_local]
-^https:\/\/.*\.auhvylo\.cn\/\w+\/[a-z0-9]{32}\/[a-z0-9]{32}\.m3u8 url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/m3u8.js.js
-
-[mitm]
-hostname = *.auhvylo.cn
-
-*/
 
 const $ = new Env("GOGOGOGO");
 let url = $request.url, headers = $request.headers;
