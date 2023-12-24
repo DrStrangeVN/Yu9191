@@ -17,7 +17,7 @@
 - 打开`重写规则`➟ 打开`91短视频（举例）`➟ 通知然后点击跳转➟ 点击`获取视频地址`➟ 跳转到浏览器或者其他工具即可观看
 
 
-> QuantumultX：hhttps://raw.githubusercontent.com/Yu9191/Rewrite/main/m3u8/m3u8.js
+> QuantumultX：https://raw.githubusercontent.com/Yu9191/Rewrite/main/m3u8/m3u8.js
 
 > [suger](https://raw.githubusercontent.com/Yu9191/Rewrite/main/m3u8/m3u8.sgmodule)
 
