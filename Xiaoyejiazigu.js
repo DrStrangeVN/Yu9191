@@ -2,11 +2,11 @@
 架子鼓 3.2.0
 time：2023-12-25
 
-[Rewrite_local]
+[rewrite_local]
 #正则合并
 ^https:\/\/oneplay-api\.xiaoyezi\.com\/drum\/(score|account) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Xiaoyejiazigu.js
 
-[MITM]
+[mitm]
 hostname = oneplay-api.xiaoyezi.com
 */
 var body = $response.body;
