@@ -20,3 +20,11 @@
 最后更新时间：2023.10.5最新
 
 **请注意：** 这两个合集只包含iTunes和Revenuecat域名的软件。脚本仅供学习，请勿传播或售卖。如果您需要其他域名的软件，请查看仓库中的其他合集。
+
+ # My GitHub README
+
+Welcome to my README!
+
+<div align="center">
+    <img src="example.svg" width="400" height="400" alt="css-in-readme">
+</div>
