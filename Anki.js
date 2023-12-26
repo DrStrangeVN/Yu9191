@@ -5,7 +5,7 @@
 下载地址：https://is.gd/ogshV8
 使用声明：⚠️仅供参考，🈲️转载与售卖！
 
-**************************************
+
 
 [rewrite_local]
 ^https:\/\/api\.ankichinas\.com\/api\/v1\/users\/vipInfo url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Anki.js
