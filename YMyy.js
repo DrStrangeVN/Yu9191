@@ -1,6 +1,6 @@
 /*
 游美英语
-2023.12.28
+2023.12.28 
 [rewrite_local]
 #用户信息
 ^https:\/\/www\.usacamp\.cn\/Api1_2\/loginWithUserID url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/YMyy.js
