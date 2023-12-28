@@ -18,7 +18,6 @@ const grzx = '/Api1_2/getGuideBanner';
 let body = $response.body;
 
 if (url.indexOf(yhxx) != -1) {
-    let body = $response.body;
     body = body.replace(/"end_time":"[^"]*"/g, '"end_time":"2099-09-29"');
     //开始时间
     body = body.replace(/"begin_time":"[^"]*"/g, '"begin_time":"2023-12-28"');
