@@ -10,12 +10,12 @@ https://www.usacamp.cn/Api1_2/getGuideBanner url script-response-body https://ra
 [mitm]
 hostname = www.usacamp.cn
 */
-
-let obj = JSON.parse($response.body);
 const url = $request.url;
 
 const yhxx = '/Api1_2/loginWithUserID';
 const grzx = '/Api1_2/getGuideBanner';
+
+let body = $response.body;
 
 if (url.indexOf(yhxx) != -1) {
     let body = $response.body;
