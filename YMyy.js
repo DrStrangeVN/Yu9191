@@ -3,9 +3,9 @@
 2023.12.28
 [rewrite_local]
 #用户信息
-^https:\/\/www\.usacamp\.cn\/Api1_2\/loginWithUserID url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Ymyy.js
+^https:\/\/www\.usacamp\.cn\/Api1_2\/loginWithUserID url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/YMyy.js
 #个人中心推广
-https://www.usacamp.cn/Api1_2/getGuideBanner url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Ymyy.js
+https://www.usacamp.cn/Api1_2/getGuideBanner url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/YMyy.js
 
 [mitm]
 hostname = www.usacamp.cn
