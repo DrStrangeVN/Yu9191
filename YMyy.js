@@ -30,6 +30,11 @@ if (url.indexOf(yhxx) != -1) {
     body = body.replace(/"availdays":"[^"]*"/g, '"availdays":"999999"');
     //体验日期
     body = body.replace(/"experience_date":"[^"]*"/g, '"experience_date":"2099-09-29"');
+    //学习等级
+    body = body.replace(/"study_degree":"[^"]*"/g, '"study_degree":"99"');
+    //我的积分
+    body = body.replace(/"point":"[^"]*"/g, '"point":"999999"');
+
 
 } else if (url.indexOf(grzx) != -1) {
     body = body.replace(/"title":"[^"]*"/g, '"title":"免费脚本请勿购买"');
