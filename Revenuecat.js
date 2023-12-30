@@ -22,7 +22,7 @@
 下载地址：‎AI Type
 下载地址：TextMask
 下载地址：Music Mate
-下载地址：Langster
+下载地址：Langster https://too.st/7aW 同作者5个软件 
 使用声明：⚠️仅供参考，🈲️转载与售卖！
 
 **************************************
@@ -86,6 +86,7 @@ if (typeof $response == "undefined") {
     'VoiceAI':{ name: 'Special Offer', id: 'voiceannualspecial'},
     'Langster':{ name: 'Premium', id: 'com.langster.universal.lifetime'},
     'Chat%E7%BB%83%E5%8F%A3%E8%AF%AD':{ name: 'Premium', id: 'com.tech.AiSpeak.All'},
+    'Readle':{ name: 'Premium', id: 'com.hello.german.yearly'//4个软件通用
   };
   const data = {
     "expires_date": "2099-12-31T12:00:00Z",
