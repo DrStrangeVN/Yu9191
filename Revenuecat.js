@@ -23,6 +23,7 @@
 下载地址：TextMask
 下载地址：Music Mate
 下载地址：Langster https://too.st/7aW 同作者5个软件 
+下载地址：muse 同作者2个软件
 使用声明：⚠️仅供参考，🈲️转载与售卖！
 
 **************************************
@@ -86,8 +87,10 @@ if (typeof $response == "undefined") {
     'VoiceAI':{ name: 'Special Offer', id: 'voiceannualspecial'},
     'Langster':{ name: 'Premium', id: 'com.langster.universal.lifetime'},
     'Chat%E7%BB%83%E5%8F%A3%E8%AF%AD':{ name: 'Premium', id: 'com.tech.AiSpeak.All'},
-    'Readle':{ name: 'Premium', id: 'com.hello.german.yearly'};
-  
+    'Readle':{ name: 'Premium', id: 'com.hello.german.yearly'},
+    'image_upscaler':{ name: 'pro', id: 'yearly_sub_pro'},
+    'Muse':{ name: 'pro', id: 'monthly_pro_muse'};
+
   const data = {
     "expires_date": "2099-12-31T12:00:00Z",
     "original_purchase_date": "2023-09-01T11:00:00Z",
