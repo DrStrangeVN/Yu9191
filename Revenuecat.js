@@ -86,8 +86,8 @@ if (typeof $response == "undefined") {
     'VoiceAI':{ name: 'Special Offer', id: 'voiceannualspecial'},
     'Langster':{ name: 'Premium', id: 'com.langster.universal.lifetime'},
     'Chat%E7%BB%83%E5%8F%A3%E8%AF%AD':{ name: 'Premium', id: 'com.tech.AiSpeak.All'},
-    'Readle':{ name: 'Premium', id: 'com.hello.german.yearly'//4个软件通用
-  };
+    'Readle':{ name: 'Premium', id: 'com.hello.german.yearly'};
+  
   const data = {
     "expires_date": "2099-12-31T12:00:00Z",
     "original_purchase_date": "2023-09-01T11:00:00Z",
