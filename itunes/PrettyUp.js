@@ -36,7 +36,7 @@ var objc = JSON.parse($response.body);
         "is_trial_period": "true",
         "original_transaction_id": "220001796439526",
         "purchase_date": "2023-11-14 14:29:01 Etc\/GMT",
-        "product_id": "com.floatcamellia.prettyup.freetrialyearlysubscription",
+        "product_id": "com.floatcamellia.prettyup.onetimepurchase",
         "original_purchase_date_pst": "2023-11-14 06:29:02 America\/Los_Angeles",
         "in_app_ownership_type": "PURCHASED",
         "original_purchase_date_ms": "1699972142000",
@@ -61,7 +61,7 @@ var objc = JSON.parse($response.body);
   },
   "pending_renewal_info": [
     {
-      "product_id": "com.floatcamellia.prettyup.freetrialyearlysubscription",
+      "product_id": "com.floatcamellia.prettyup.onetimepurchase",
       "original_transaction_id": "220001796439526",
       "auto_renew_product_id": "com.floatcamellia.prettyup.freetrialyearlysubscription",
       "auto_renew_status": "1"
@@ -80,7 +80,7 @@ var objc = JSON.parse($response.body);
       "is_trial_period": "true",
       "original_transaction_id": "220001796439526",
       "purchase_date": "2023-11-14 14:29:01 Etc\/GMT",
-      "product_id": "com.floatcamellia.prettyup.freetrialyearlysubscription",
+      "product_id": "com.floatcamellia.prettyup.onetimepurchase",
       "original_purchase_date_pst": "2023-11-14 06:29:02 America\/Los_Angeles",
       "in_app_ownership_type": "PURCHASED",
       "subscription_group_identifier": "20721268",
