@@ -16,6 +16,8 @@
 
 - 打开`重写规则`➟ 打开`91短视频（举例）`➟ 通知然后点击跳转➟ 点击`获取视频地址`➟ 跳转到浏览器或者其他工具即可观看
 
+## 最新播放地址
+2024.1.4 正则：^https:\/\/[^\/]*\.pnowdvc\.cn\/\w+\/[a-z0-9]{32}\/[a-z0-9]{32}\.m3u8 
 
 > [Quantumult X](https://raw.githubusercontent.com/Yu9191/Rewrite/main/m3u8/m3u8.conf)
 
