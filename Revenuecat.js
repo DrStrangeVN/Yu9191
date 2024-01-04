@@ -89,7 +89,9 @@ if (typeof $response == "undefined") {
     'Chat%E7%BB%83%E5%8F%A3%E8%AF%AD':{ name: 'Premium', id: 'com.tech.AiSpeak.All'},
     'Readle':{ name: 'Premium', id: 'com.hello.german.yearly'},
     'image_upscaler':{ name: 'pro', id: 'yearly_sub_pro'},
-    'Muse':{ name: 'pro', id: 'monthly_pro_muse'};
+    'Muse':{ name: 'pro', id: 'monthly_pro_muse'},
+    
+    };
 
   const data = {
     "expires_date": "2099-12-31T12:00:00Z",
