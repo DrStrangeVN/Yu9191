@@ -1,11 +1,9 @@
-# my
+# 有问题请联系我：[https://t.me/ios151](https://t.me/ios151)
 
 [![访问量](https://komarev.com/ghpvc/?username=Yu9191)](https://github.com/Yu9191)
 [![GitHub 关注者](https://img.shields.io/github/followers/Yu9191?style=social)](https://github.com/Yu9191)
 
 欢迎来到我的 GitHub 仓库！在这里，您可以找到我的最新项目和贡献。
-
-## 仓库统计
 
 | 统计项   | 数量                                                                 |
 | -------- | -------------------------------------------------------------------- |
@@ -14,8 +12,6 @@
 | 关注者   | [![GitHub 关注者](https://img.shields.io/github/followers/Yu9191?style=social)](https://github.com/Yu9191) |
 
 请随意探索并为我的项目做出贡献。如果您觉得它们有用，请不要忘记给它们一个星标！
-
-## 仓库链接
 
 - [GitHub 仓库](https://github.com/Yu9191)
 - 累计访客量: ![累计访客量](https://profile-counter.glitch.me/Yu9191/count.svg)
@@ -39,6 +35,5 @@
 
 **请注意：** 这两个合集只包含iTunes和Revenuecat域名的软件。脚本仅供学习，请勿传播或售卖。如果您需要其他域名的软件，请查看仓库中的其他合集。
 
-这个保留然后就是说明一下后续的iTunes软件，移步到 [这个链接](https://github.com/Yu9191/Rewrite/tree/main/itunes)。
-
+后续的iTunes软件，移步到 [这个链接](https://github.com/Yu9191/Rewrite/tree/main/itunes)。
 
