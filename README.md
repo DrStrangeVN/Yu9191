@@ -1,32 +1,25 @@
-<div align="center"> <img src="https://profile-counter.glitch.me/Yu9191/count.svg" /> </div>
+# my
 
-# 我的 GitHub 仓库
-
-[![访问量](https://visitor-badge.glitch.me/badge?page_id=Yu9191.Yu9191)](https://github.com/Yu9191)
+[![访问量](https://komarev.com/ghpvc/?username=Yu9191)](https://github.com/Yu9191)
 [![GitHub 关注者](https://img.shields.io/github/followers/Yu9191?style=social)](https://github.com/Yu9191)
 
 欢迎来到我的 GitHub 仓库！在这里，您可以找到我的最新项目和贡献。
 
 ## 仓库统计
 
-- 总访问量: ![总访问量](https://komarev.com/ghpvc/?username=Yu9191)
-- 访客: ![访客](https://visitor-badge.glitch.me/badge?page_id=Yu9191.Yu9191)
-- 关注者: ![GitHub 关注者](https://img.shields.io/github/followers/Yu9191?style=social)
+| 统计项   | 数量                                                                 |
+| -------- | -------------------------------------------------------------------- |
+| 总访问量 | [![总访问量](https://komarev.com/ghpvc/?username=Yu9191)](https://github.com/Yu9191) |
+| 访客     | [![访客](https://visitor-badge.glitch.me/badge?page_id=Yu9191.Yu9191)](https://github.com/Yu9191) |
+| 关注者   | [![GitHub 关注者](https://img.shields.io/github/followers/Yu9191?style=social)](https://github.com/Yu9191) |
 
 请随意探索并为我的项目做出贡献。如果您觉得它们有用，请不要忘记给它们一个星标！
 
 ## 仓库链接
 
-[GitHub 仓库](https://github.com/Yu9191)
-[点击这里切换到英文](https://github.com/Yu9191?language=en)
-<button onclick="window.location.href = 'https://github.com/Yu9191?language=en'">切换到英文</button>
-
-![累计访客量](https://profile-counter.glitch.me/Yu9191/count.svg)
-
-[![星标数量](https://img.shields.io/github/stars/Yu9191/Rewrite?style=social)](https://github.com/Yu9191/Rewrite/stargazers)
-
-
-# 部分软件合集 其他请查看具体Js内容
+- [GitHub 仓库](https://github.com/Yu9191)
+- 累计访客量: ![累计访客量](https://profile-counter.glitch.me/Yu9191/count.svg)
+- [星标数量](https://img.shields.io/github/stars/Yu9191/Rewrite?style=social): ![星标数量](https://img.shields.io/github/stars/Yu9191/Rewrite?style=social)
 
 ## iTunes 合集
 
@@ -45,5 +38,7 @@
 最后更新时间：2023.10.5最新
 
 **请注意：** 这两个合集只包含iTunes和Revenuecat域名的软件。脚本仅供学习，请勿传播或售卖。如果您需要其他域名的软件，请查看仓库中的其他合集。
+
+这个保留然后就是说明一下后续的iTunes软件，移步到 [这个链接](https://github.com/Yu9191/Rewrite/tree/main/itunes)。
 
 
