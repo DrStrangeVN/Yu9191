@@ -18,6 +18,7 @@
 
 ## 最新播放地址
 2024.1.4 正则：^https:\/\/[^\/]*\.pnowdvc\.cn\/\w+\/[a-z0-9]{32}\/[a-z0-9]{32}\.m3u8 
+2024.1.10 正则：^https:\/\/[^\/]*\.xgfipub\.cn\/\w+\/[a-z0-9]{32}\/[a-z0-9]{32}\.m3u8 
 
 > [Quantumult X](https://raw.githubusercontent.com/Yu9191/Rewrite/main/m3u8/m3u8.conf)
 
