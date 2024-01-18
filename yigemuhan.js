@@ -15,6 +15,6 @@ hostname = uapi.woobx.cn
 
 let gid = JSON.parse($response.body);
 
-gid.gid = 3;
+gid.data.userInfo.gid = 3;
 
 $done({body:JSON.stringify(gid)});
