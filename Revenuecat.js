@@ -24,6 +24,7 @@
 下载地址：Music Mate
 下载地址：Langster https://too.st/7aW 同作者5个软件 
 下载地址：muse 同作者2个软件
+下载地址：Funexpected 
 使用声明：⚠️仅供参考，🈲️转载与售卖！
 
 **************************************
@@ -90,6 +91,7 @@ if (typeof $response == "undefined") {
     'Readle':{ name: 'Premium', id: 'com.hello.german.yearly'},
     'image_upscaler':{ name: 'pro', id: 'yearly_sub_pro'},
     'Muse':{ name: 'pro', id: 'monthly_pro_muse'},
+    'Funexpected%20Math':{ name: 'plus', id: 'Plus6Months14DaysTrial'},
     
     };
 
