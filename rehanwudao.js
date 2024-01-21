@@ -10,9 +10,6 @@
 
 http://dancefit.dailyyogac.com/dancefit url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/rehanwudao.js
 
-[mitm] 
-
-hostname = dancefit.dailyyogac.com
 
 **/
 
