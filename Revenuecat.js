@@ -92,7 +92,7 @@ if (typeof $response == "undefined") {
     'image_upscaler':{ name: 'pro', id: 'yearly_sub_pro'},
     'Muse':{ name: 'pro', id: 'monthly_pro_muse'},
     'Funexpected%20Math':{ name: 'plus', id: 'Plus6Months14DaysTrial'},
-    
+    'cdiary':{ name: 'Premium', id: 'pub.kiya.daymoment.lifetime'},
     };
 
   const data = {
