@@ -93,6 +93,7 @@ if (typeof $response == "undefined") {
     'Muse':{ name: 'pro', id: 'monthly_pro_muse'},
     'Funexpected%20Math':{ name: 'plus', id: 'Plus6Months14DaysTrial'},
     'cdiary':{ name: 'Premium', id: 'pub.kiya.daymoment.lifetime'},
+    'Sex%20Actions':{ name: 'Premium Plus', id: 'ru.sexactions.subscriptionPlusWeek1'},
     };
 
   const data = {
