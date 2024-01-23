@@ -25,6 +25,7 @@
 下载地址：Langster https://too.st/7aW 同作者5个软件 
 下载地址：muse 同作者2个软件
 下载地址：Funexpected 
+下载地址：中国法律
 使用声明：⚠️仅供参考，🈲️转载与售卖！
 
 **************************************
@@ -94,6 +95,7 @@ if (typeof $response == "undefined") {
     'Funexpected%20Math':{ name: 'plus', id: 'Plus6Months14DaysTrial'},
     'cdiary':{ name: 'Premium', id: 'pub.kiya.daymoment.lifetime'},
     'Sex%20Actions':{ name: 'Premium Plus', id: 'ru.sexactions.subscriptionPlusWeek1'},
+    'Law':{ name: 'vip', id: 'LawVIPOneYear'},
     };
 
   const data = {
