@@ -10,7 +10,7 @@ https://lentoapp.com:8081/getUserMemberShipInfo url script-response-body https:/
 
 [MITM]
 
-hostname = lentoapp.com
+hostname = lentoapp.com:8081
 
 
 */
