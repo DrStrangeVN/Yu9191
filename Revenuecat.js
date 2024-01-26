@@ -96,6 +96,7 @@ if (typeof $response == "undefined") {
     'cdiary':{ name: 'Premium', id: 'pub.kiya.daymoment.lifetime'},
     'Sex%20Actions':{ name: 'Premium Plus', id: 'ru.sexactions.subscriptionPlusWeek1'},
     'Law':{ name: 'vip', id: 'LawVIPOneYear'},
+    'Emoji+%20%F0%9F%98%9':{ name: 'premium', id: 'com.emoji.freemium.subscription.premium'},
     };
 
   const data = {
