@@ -34,7 +34,7 @@ var objc = JSON.parse($response.body);
         "is_trial_period" : "true",
         "original_transaction_id" : "220001826202938",
         "purchase_date" : "2023-12-10 09:38:39 Etc/GMT",
-        "product_id" : "com.subscribe.pro.year",
+        "product_id" : "com.subscribe.pro.perpetual",
         "original_purchase_date_pst" : "2023-12-10 01:38:40 America/Los_Angeles",
         "in_app_ownership_type" : "PURCHASED",
         "original_purchase_date_ms" : "1702201120000",
@@ -59,7 +59,7 @@ var objc = JSON.parse($response.body);
   },
   "pending_renewal_info" : [
     {
-      "product_id" : "com.subscribe.pro.year",
+      "product_id" : "com.subscribe.pro.perpetual",
       "original_transaction_id" : "220001826202938",
       "auto_renew_product_id" : "com.subscribe.pro.year",
       "auto_renew_status" : "1"
@@ -77,7 +77,7 @@ var objc = JSON.parse($response.body);
       "is_trial_period" : "true",
       "original_transaction_id" : "220001826202938",
       "purchase_date" : "2023-12-10 09:38:39 Etc/GMT",
-      "product_id" : "com.subscribe.pro.year",
+      "product_id" : "com.subscribe.pro.perpetual",
       "original_purchase_date_pst" : "2023-12-10 01:38:40 America/Los_Angeles",
       "in_app_ownership_type" : "PURCHASED",
       "subscription_group_identifier" : "20641654",
