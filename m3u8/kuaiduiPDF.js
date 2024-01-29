@@ -9,7 +9,7 @@ if (headers.hasOwnProperty("zyb-cuid") || headers.hasOwnProperty("Zyb-Cuid")) {
             if (!notify || notify !== url) {
                 // 如果不存在通知或者当前链接与之前存储的链接不同，则发送通知
                 $.setdata(url, "pdfUrl");
-                $.msg("PDF链接捕获成功", "点击此通知查看PDF", "", { 'media-url': url });
+                $.msg("PDF链接捕获成功", "让孩子多做几套试卷", "点击此通知查看PDF", url);
             }
         } else {
             $.msg("PDF链接捕获成功", "", "点击此通知查看PDF", url);
