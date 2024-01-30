@@ -20,7 +20,7 @@ if (body && url) {
                 jsonData.data.isAlreadyBuy = true;
             }
         } else if (url.includes("https://gateway.chaojitiku.com/h5/question/testing/getAppInfo")) {
- memberSubject 属性
+ //memberSubject是否分享？
             if (jsonData.data && jsonData.data.records) {
                 jsonData.data.records.forEach(function(record) {
                     if (record.payType) {
