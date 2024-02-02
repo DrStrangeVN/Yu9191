@@ -1,3 +1,15 @@
+/*
+memrise
+
+[rewrite_local]
+
+^https:\/\/api\.memrise\.com url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/memrise.js
+
+[mitm] 
+
+hostname = api.memrise.com
+*/
+
 var body = $response.body;
 
 
