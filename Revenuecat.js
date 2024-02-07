@@ -98,6 +98,7 @@ if (typeof $response == "undefined") {
     'Law':{ name: 'vip', id: 'LawVIPOneYear'},
     'Emoji+%20%F0%9F%98%9':{ name: 'premium', id: 'com.emoji.freemium.subscription.premium'},
     'universal':{ name: 'Premium', id: 'remotetv.yearly.01'},
+    'HabitKit':{ name: 'Pro', id: 'habitkit_1799_lt'},
     
     };
 
