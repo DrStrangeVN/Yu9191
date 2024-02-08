@@ -100,6 +100,7 @@ if (typeof $response == "undefined") {
     'universal':{ name: 'Premium', id: 'remotetv.yearly.01'},
     'HabitKit':{ name: 'Pro', id: 'habitkit_1799_lt'},
     'windiary':{ name: 'Pro', id: 'windiary_1799_lt'},
+    'Liftbear':{ name: 'Pro', id: 'liftbear_2399_1y'},
     
     
     };
