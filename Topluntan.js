@@ -26,7 +26,15 @@ if (url.indexOf("https://super.toppps.com/app-api/v1/toppps/live/getLiveSpaceDet
     if (pdfUrlMatch && pdfUrlMatch.length > 1) {
         var pdfListEncoded = pdfUrlMatch[1];
         var pdfListDecoded = decodeURIComponent(pdfListEncoded);
-        $notification.post("PDF 下载链接", "", pdfListDecoded);
+        
+        // 检查是否为 Quantumult X 环境
+        if ('undefined' !== typeof $task) {
+            // 在 Quantumult X 环境下使用 $notify() 函数进行通知
+            $notify("PDF 下载链接", "", pdfListDecoded);
+        } else {
+            // 在 Surge 环境下使用 $notification.post() 函数进行通知
+            $notification.post("PDF 下载链接", "", pdfListDecoded);
+        }
     }
 } else if (url.indexOf("https://super.toppps.com/app-api/v1/toppps/products") !== -1) {
     // 空中课堂普通课程
@@ -34,8 +42,15 @@ if (url.indexOf("https://super.toppps.com/app-api/v1/toppps/live/getLiveSpaceDet
     if (pdfUrlMatch && pdfUrlMatch.length > 1) {
         var pdfUrlEncoded = pdfUrlMatch[1];
         var pdfUrlDecoded = decodeURIComponent(pdfUrlEncoded);
-       
-        $notification.post("PDF 下载链接", "", pdfUrlDecoded);
+        
+        // 检查是否为 Quantumult X 环境
+        if ('undefined' !== typeof $task) {
+            // 在 Quantumult X 环境下使用 $notify() 函数进行通知
+            $notify("PDF 下载链接", "", pdfUrlDecoded);
+        } else {
+            // 在 Surge 环境下使用 $notification.post() 函数进行通知
+            $notification.post("PDF 下载链接", "", pdfUrlDecoded);
+        }
     }
 
     body = body.replace(/"pdfFree":\s*\d+/g, '"pdfFree": 1')
@@ -46,3 +61,4 @@ if (url.indexOf("https://super.toppps.com/app-api/v1/toppps/live/getLiveSpaceDet
 }
 
 $done({ body });
+
