@@ -1,0 +1,2 @@
+var updatedUrl = $request.url.replace(/udid=[^&]*/, 'udid=00008110-001C2DEC1A9B801E');
+$done({ url: updatedUrl });
