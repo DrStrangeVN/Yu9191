@@ -63,7 +63,7 @@ if (typeof $response == "undefined") {
   var UA = $request.headers['user-agent'];
   const app = '1';
   const UAMappings = {
-    'FaceMa':{ name: 'Pro', id: 'Pro_Lifetime'},//Facemo
+    'FaceMa':{ name: 'Pro access', id: 'Pro_Lifetime'},//Facemo
     
     'StarDiary':{ name: 'pro', id: 'com.gsdyx.StarDiary.nonConsumable.forever'},
     'CountDuck':{ name: 'premium', id: 'Lifetime'},
