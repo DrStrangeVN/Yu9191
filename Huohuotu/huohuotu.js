@@ -13,9 +13,9 @@ const myUserId = 6;//例
 
 
 // 这个一般不会变
-const myToken = "eyJ0eXBlIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJVU0VSX1RZUEUiOiJoaHRqZ3MiLCJVU0VSX0lEIjo3NTU4Njg5LCJleHAiOjE3MTQzNjM4NzQsIm5iZiI6MTcxMDc2Mzg3NH0.ZBd2_IRcDW4ueu9SS8oJGzMROPkxM7H-ZyEzVcNjil8";//填写到""里面
+const myToken = "eyJ8";//填写到""里面 举例
 // 一般只需要填写一次
-const myCookie = "UM_distinctid=18e5178c07c209-0177e5032b65c88-6a094916-505c8-18e5178c07d792";//填写到""里面
+const myCookie = "UM_dist792";//填写到""里面 举例
 
 
 
