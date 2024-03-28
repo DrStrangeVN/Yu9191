@@ -19,9 +19,9 @@
 
 ## 仓库脚本合集 没加iTunes和api.reven的 请用叮当猫的
 
-脚本链接：[点击查看脚本](https://raw.githubusercontent.com/Yu9191/Rewrite/main/iTunes.js)
+脚本链接：[点击查看脚本](https://raw.githubusercontent.com/Yu9191/Rewrite/main/BabyScript.txt)
 
-最后更新时间：2023.10.19
+最后更新时间：2024.3.28
 
 ## iTunes 合集
 
