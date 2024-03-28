@@ -344,7 +344,7 @@ https://smk.xiao51.com/index.php url script-response-body https://raw.githubuser
 # 标签：学习 
 # hostname = app.helixlife.cn
 ^https:\/\/app\.helixlife\.cn\/api\/v1\/(user\/overviews|edu\/(trainings|courses)) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Jieluoxuan.js
-https://app.helixlife.cn/api/v1/user/users/profile url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Jieluoxuanmy.js
+https://app.helixlife.cn/api/v1/user/users/profile url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Jieluoxianmy.js
 
 # 家惠库
 # 标签：学习 
