@@ -9,9 +9,6 @@ https://wxapi.zhongyuedu.com/zy/begin.php url reject
 [mitm]
 hostname = wxapi.zhongyuedu.com
 */
-
 var body = $response.body;
-
-body = body.replace(/("price"\s*:\s*)""/g, '$10');
-
+body = body.replace(/("price"\s*:\s*)""/g, '$1"0"');
 $done({ body: body });
