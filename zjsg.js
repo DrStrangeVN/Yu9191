@@ -2,7 +2,7 @@
 指尖时光
 [rewrite_local]
 
-https://integral2.zhijiantime.com url script-request-header 指尖时光.js
+https://integral2.zhijiantime.com url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/zjsg.js
 
 
 [mitm]
