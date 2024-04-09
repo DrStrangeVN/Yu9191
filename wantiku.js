@@ -5,6 +5,12 @@
 #完整的pdf请看完整的pdf请看
 #https://t.me/chxm1023_Chat/576673
 https:\/\/(api\.wantiku\.com\/api\/Chaptercourse\/CourseSiteTree|weixin\.wantiku\.com\/api\/activity\/GetActiveCodeFileList|api\.wantiku\.com\/api\/Resource\/HeadMaster|weixin.wantiku.com\/api\/kbjt\/GetKaoBaJiangTangList) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/wantiku.js
+
+#开屏
+^https:\/\/api\.wantiku\.com\/api\/WanNengKu\/GetStartPageAd url reject
+^https:\/\/api\.wantiku\.com\/api\/ad\/AdList url reject
+
+
 [mitm]
 hostname = *.wantiku.com
 */
