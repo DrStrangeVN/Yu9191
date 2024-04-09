@@ -11,7 +11,7 @@
 
 # 解决方法：关[MITM][脚本][代理工具]方法选一即可
 
-# 更新日期：2024-04-07
+# 更新日期：2024-04-10
 
 # 项目解锁App下载地址：https://too.st/iTunes
 
@@ -1024,6 +1024,10 @@ https:\/\/medicine-family\.meappstore\.top\/medicineModule\/api\/(users\/iosUser
 #中医药在线
 ^https:\/\/3api\.zyyzx\.com\.cn\/(education\/api\/coursetenant\/getCourseChapterAndLessonByCourseId|admin\/api\/user\/selectUserInfo) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/zyyzx.js
 
+#2024.4.10
+#万题库
+https:\/\/(api\.wantiku\.com\/api\/Chaptercourse\/CourseSiteTree|weixin\.wantiku\.com\/api\/activity\/GetActiveCodeFileList|api\.wantiku\.com\/api\/Resource\/HeadMaster) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/wantiku.js
+
 
 # 过滤整合hostname 留下完整的hostname
-hostname = subscription-api.notedapp.io, medicine-family.meappstore.top, 3api.zyyzx.com.cn, oxfordx.cp.com.cn, license.pdfexpert.com, device.rsjxzl.com, lcs-mobile-cops.adobe.io, api.adapty.io, api.panda.boosters.company, c.abcpiano.cn, oauth.secure.pixiv.net, app-api.pixiv.net, qqpyqapi.app.xinmaicard.com, paper.zjapp.xyz, my.getslopes.com, jk.dmzgame.com, app.yinxiang.com, magev6.if.qidian.com, szone-my.7net.cc, api.readbot.tech, richapi.yestiku.com, api.528529.com, shimo.im, 152.136.134.81:8090, alicdn.joytunescn.com, www.soogif.com, api.changecollective.com, miniapp.guniuniu.com, www.huojiwangluo.cn, smallatom.xyz, open3.vistastory.com, api.300624.com, dict.youdao.com, business.youdao.com, api-overmind.youdao.com, cdke.youdao.com, lchttpapi.xczim.com, avoscloud.com, www.xfx119.com, cm15-c110-3.play.bokecc.com, cm15-c110-2.play.bokecc.com, lp-vid.xiongmaoboshi.com, lp-api.xiongmaoboshi.com, xw.jietuguanjia.com, donate-api.recorder.duapps.com, www.xiaoxiongyouhao.com, app.xinxuejy.com, api.mindyushu.com, api.yaodiandaxue.vip, api.ebaicha.com, yinian.pro, music.hjyywh.com, music-knowledge-api.quthing.com, yopu.co, yueh.app168.cc, auth.production.metronautapp.cn, app.zomoplan.com, api.yikao88.com, xzykt.longmenshuju.com, app.kcguoyi.com, shop.kcguoyi.com, yoga-api.aiyouaiyou.cn, api.chengkaowang.cn
+hostname = subscription-api.notedapp.io, api.wantiku.com, medicine-family.meappstore.top, 3api.zyyzx.com.cn, oxfordx.cp.com.cn, license.pdfexpert.com, device.rsjxzl.com, lcs-mobile-cops.adobe.io, api.adapty.io, api.panda.boosters.company, c.abcpiano.cn, oauth.secure.pixiv.net, app-api.pixiv.net, qqpyqapi.app.xinmaicard.com, paper.zjapp.xyz, my.getslopes.com, jk.dmzgame.com, app.yinxiang.com, magev6.if.qidian.com, szone-my.7net.cc, api.readbot.tech, richapi.yestiku.com, api.528529.com, shimo.im, 152.136.134.81:8090, alicdn.joytunescn.com, www.soogif.com, api.changecollective.com, miniapp.guniuniu.com, www.huojiwangluo.cn, smallatom.xyz, open3.vistastory.com, api.300624.com, dict.youdao.com, business.youdao.com, api-overmind.youdao.com, cdke.youdao.com, lchttpapi.xczim.com, avoscloud.com, www.xfx119.com, cm15-c110-3.play.bokecc.com, cm15-c110-2.play.bokecc.com, lp-vid.xiongmaoboshi.com, lp-api.xiongmaoboshi.com, xw.jietuguanjia.com, donate-api.recorder.duapps.com, www.xiaoxiongyouhao.com, app.xinxuejy.com, api.mindyushu.com, api.yaodiandaxue.vip, api.ebaicha.com, yinian.pro, music.hjyywh.com, music-knowledge-api.quthing.com, yopu.co, yueh.app168.cc, auth.production.metronautapp.cn, app.zomoplan.com, api.yikao88.com, xzykt.longmenshuju.com, app.kcguoyi.com, shop.kcguoyi.com, yoga-api.aiyouaiyou.cn, api.chengkaowang.cn
