@@ -69,6 +69,7 @@ if (typeof $response == "undefined") {
     'MadeYu':{ name: 'pro_plus', id: 'my_549_1m_400'},//
     'clica':{ name: 'pro', id: 'clica.vip.year'},//
     'FoJiCam':{ name: 'Pro', id: 'com.uzero.cn.fojicam.life2'},//2024.4.9
+    'ShellBoxKit':{ name: 'pro', id: 'ShellBoxKit.Lifetime'},//2024.4.9
 
     'StarDiary':{ name: 'pro', id: 'com.gsdyx.StarDiary.nonConsumable.forever'},
     'CountDuck':{ name: 'premium', id: 'Lifetime'},
