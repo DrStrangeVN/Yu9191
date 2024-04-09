@@ -2,7 +2,8 @@
 万题库课程 资料 
 5.6.3
 [rewrite_local]
-#完整的pdf请看完整的pdf请看https://t.me/chxm1023_Chat/576673
+#完整的pdf请看完整的pdf请看
+#https://t.me/chxm1023_Chat/576673
 https:\/\/(api\.wantiku\.com\/api\/Chaptercourse\/CourseSiteTree|weixin\.wantiku\.com\/api\/activity\/GetActiveCodeFileList|api\.wantiku\.com\/api\/Resource\/HeadMaster) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/wantiku.js
 
 [mitm]
