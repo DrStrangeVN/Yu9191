@@ -2,7 +2,7 @@
 番茄闪轻
 [rewrite_local]
 
-https://tomato-health.imfasting.cn/api/user_info url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/wantiku.js
+https://tomato-health.imfasting.cn/api/user_info url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/fqsq.js
 
 [mitm]
 hostname = tomato-health.imfasting.cn
