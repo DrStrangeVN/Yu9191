@@ -11,7 +11,7 @@
 
 
 [mitm]
-hostname = console.qker.com
+hostname = *.qker.com
 */
 const url = $request.url;
 
