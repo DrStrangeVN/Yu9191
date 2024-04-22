@@ -1,6 +1,7 @@
 
 COE私塾
 解锁部分付费课程及PDF课件
+PDF课件 以及 xmind课件 可以自己抓包获取 不做脚本
 [rewrite_local]
 
 ^https:\/\/app\.hrcoe\.com\/app\/store\/(selectExtendListV2|queryCampList)$ url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/coess.js
