@@ -63,6 +63,7 @@ if (typeof $response == "undefined") {
   var UA = $request.headers['user-agent'];
   const app = '1';
   const UAMappings = {
+    'mark_cup':{ name: 'premiun', id: '202403180021'},//20.24.5.4
     'VOX':{ name: 'VOX Premium', id: 'com.coppertino.VoxMobile.AU.Loop1_v8'},//20.24.4.22
     'PDF%20Viewer':{ name: 'sub.pro', id: 'com.pspdfkit.viewer.sub.pro.yearly'},//2024.3.21
     'Text%20Workflow':{ name: 'pro', id: 'tw_99_1m'},//2024.3.2
