@@ -63,6 +63,7 @@ if (typeof $response == "undefined") {
   var UA = $request.headers['user-agent'];
   const app = '1';
   const UAMappings = {
+    '%E9%B2%B8%E8%90%BD%E6%96%87%E6%A1%88':{ name: 'vip', id: 'jl_year'},//2024.5.6
     'PeachTree':{ name: 'GoldMember', id: 'LifetimeGoldMembership'},//2024.5.5
     'No%20Fusion':{ name: 'LivePhoto', id: 'com.grey.livephoto.reference.price'},//2024.5.5
     'mark_cup':{ name: 'premiun', id: '202403180021'},//20.24.5.4
