@@ -2,7 +2,7 @@
 
 faceai 
 ‎Watch Faces GallerY 4.93
-
+无人机助手
 [rewrite_local]
 
 https://api.adapty.io/api/v1/sdk/in-apps/apple/receipt/validate/ url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/FaceAi.js
