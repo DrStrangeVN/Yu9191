@@ -12,12 +12,12 @@ hostname = www.mobile01.com
 
 */
 var body = JSON.parse($response.body);
-response.user.ad_display.web = false;
-response.user.ad_display.app = false;
-response.user.ad_display.mobile = false;
-response.user.vip_expirydate = 9898988999;
-response.user.allow_vip = true;
-response.user.vip = true;
-response.user.post_permission = true;
+body.response.user.ad_display.web = false;
+body.response.user.ad_display.app = false;
+body.response.user.ad_display.mobile = false;
+body.response.user.vip_expirydate = 9898988999;
+body.response.user.allow_vip = true;
+body.response.user.vip = true;
+body.response.user.post_permission = true;
 $done({ body: JSON.stringify(body) });
 
